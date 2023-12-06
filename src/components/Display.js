@@ -156,6 +156,7 @@ const Display = () => {
                     defaultCountry="IN"
                     flags={["IN"]}
                     inputStyle={{ width: "100%" }}
+                    onChange={(e)=>console.log(e)}
                   />
                  
                  
